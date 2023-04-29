@@ -1,7 +1,8 @@
 /* defining the global variables */
 :root{
     --primaryColor: #577D86;
-    --backgroundColor: #B9EDDD;
+    --backgroundcolor: #8ddbc4;
+    --primaryacentcolour:var(--backgroundcolour);
     --myTitleFont:'Sacramento', cursive;
     --fontDefaultTextFont: 'Lato', sans-serif;
     --fontDefaultHeading: 'Montserrat', sans-serif; 
@@ -11,10 +12,14 @@
 
 body{
     margin: 0px;
+    color: var(--primaryColor)
+    font-family: var(--fontDefaultHeading);
+    line-height: 2;
+
 }
 
 .top-section{
-    background-color: var(--backgroundColor);
+    background-color: var(--backgroundcolor);
     color: var(--primaryColor);
     /* height: 400px; */
     text-align: center;
@@ -25,7 +30,7 @@ body{
 .middle-section{
     margin: 50px auto 100px auto;
     text-align: center;
-    width: 75%;
+    width: 60%;
 }
 .heading {
     font-family: var(--myTitleFont);
@@ -68,7 +73,7 @@ img{
 }
 .intro
 {
-    width:50%;
+    width:75%;
     margin: auto;
     line-height: 2;
 }
@@ -86,9 +91,75 @@ text-align: center;
 }
 .skillpic1
 {
-    width= 50%;
-    height= 30%;
+    width: 25%;
+    float: left;
+    margin-right: 30px;
 }
+h3{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    
+}
+
+.skillimage
+
+{
+ width:150px;
+}
+.left
+{
+    float: left;
+    margin-right: 40px;
+}
+.right
+{
+    float: right;
+    margin-right: 40px;
+}
+.skillrow
+{
+    text-align: left ;
+    margin-bottom: 80px;
+}
+h3
+
+.contact
+{
+background-color: var(--primaryacentcolour);
+font-size: 1.75rem;
+padding: 10px 20px;
+border-radius: 15px;
+text-align: center;
+}
+.contact:hover{
+    background-color: var(--primaryacentcolour);
+}
+.bottom-sec
+{
+    margin: 0px auto;
+    text-align: center;
+    background-color:chocolate;
+}
+.social{
+    padding: 40px 80px;
+}
+.info
+{
+    text-align: center;
+}
+.social-link{
+    margin:0px 40px;
+}
+.social-link:hover{
+    color: var(--backgroundcolor);
+}
+
+
 /* 
 font-family: 'Dancing Script', cursive;
 font-family: 'Lato', sans-serif;
