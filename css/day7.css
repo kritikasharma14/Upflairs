@@ -2,7 +2,6 @@
 :root{
     --primaryColor: #577D86;
     --backgroundcolor: #8ddbc4;
-    --primaryacentcolour:var(--backgroundcolour);
     --myTitleFont:'Sacramento', cursive;
     --fontDefaultTextFont: 'Lato', sans-serif;
     --fontDefaultHeading: 'Montserrat', sans-serif; 
@@ -130,14 +129,14 @@ h3
 
 .contact
 {
-background-color: var(--primaryacentcolour);
+background-color: #8ddbc4 ;
 font-size: 1.75rem;
 padding: 10px 20px;
 border-radius: 15px;
 text-align: center;
 }
 .contact:hover{
-    background-color: var(--primaryacentcolour);
+    background-color: #8ddbc4 ;
 }
 .bottom-sec
 {
