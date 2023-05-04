@@ -1,0 +1,56 @@
+body{
+    background-color: aliceblue;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+.container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 800px;
+
+}
+.box
+{
+    height: 100px;
+    width: 100px;
+    flex-grow: 1;
+    
+}
+.red
+{
+    background-color: red;
+
+}
+.black
+{
+    background-color: black;
+}
+.blue
+{
+    background-color: blue;
+}
+.green
+{
+    background-color: green;
+}
+.orange
+{
+    background-color: orange;
+}
+.cyan
+{
+    background-color: cyan;
+}
+.magenta
+{
+    background-color: magenta;
+}
+.voilet
+{
+    background-color: violet;
+}

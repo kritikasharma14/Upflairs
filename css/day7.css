@@ -122,13 +122,14 @@
     }
     .trust
     {
-        margin: 10%;
+        margin: 20%;
     }
     p
     {
         width:75%;
         margin: auto;
         line-height: 2;
+        color: #12d15b;
         
     }
     .skillrow
